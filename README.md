@@ -1,15 +1,20 @@
-iTunes Top 100
+iTunes Top 50
 ===========================
 
 
 Simple iOS application that does the following:
 
-* Parses the RSS [feed](http://itunes.apple.com/us/rss/topsongs/limit=50/xml) and asynchronously loads the contents of the feed and displays it as a scrolling list that correctly utilizes the space of the device screen.
+* Parses the [iTunes RSS feed](http://itunes.apple.com/us/rss/topsongs/limit=50/xml) and asynchronously loads the contents of the feed and displays it as a scrolling list that correctly utilizes the space of the device screen.
 * Displays the content in all orientations.
 * Each song is represented with an image on the left, the title of the song to the right with the artist name below it. To the right of the artist name, display the price.
 * Contains a *Refresh* button in the upper right corner of the navigation bar which will query the RSS feed and refresh the screen.
 * Gives the user feedback about loading items by displaying the typical loading indicator for the RSS feed and loading images.
 * Selecting an item opens the iTunes Store link for the RSS feed item.
+
+
+![Alt text](screenshot-sm-portrait.png?raw=true "iTunes Top 50")
+
+![Alt text](screenshot-sm-landscape.png?raw=true "iTunes Top 50 - Landscape mode")
 
 
 Notes about the implementation
